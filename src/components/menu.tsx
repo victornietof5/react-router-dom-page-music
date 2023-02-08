@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Nav, Navbar } from 'react-bootstrap'
@@ -18,6 +17,7 @@ export default function Menu() {
                     <Nav.Link className="text-white text-xl" ><Link className="text-decoration-none text-white  " to={'/Discover'}>Discover</Link></Nav.Link>
                     <Nav.Link ><Link className="text-decoration-none text-white " to={'/Join'}>Join</Link></Nav.Link>
                 </Nav>
+
             </Container>
         </Navbar>
 

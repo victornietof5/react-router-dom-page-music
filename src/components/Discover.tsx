@@ -1,4 +1,4 @@
-import Footer from './Footer'
+import Footer from "./Footer"
 
 export const Discover = () => {
   return (

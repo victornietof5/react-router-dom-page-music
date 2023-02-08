@@ -13,9 +13,9 @@ export default function Footer() {
             <Nav.Link className="text-white text-xl" href='#'>Contact</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
-
+            
             <Nav.Link className="text-white text-xl" href='#'><img src={twitter} alt='' />Twitter</Nav.Link>
-
+            
             <Nav.Link className="text-white text-xl" href='#'><img src={facebook} alt='' />Facebook</Nav.Link>
           </Nav>
 
