@@ -21,13 +21,13 @@ export const Discover = () => {
                         <h1> Discover new music </h1>
                         <div><img src={microphone} alt='' />
                             <p>Charts</p></div>
-                        <div><img src={albums} alt='' />
+                        <div><img src={albums} alt=''  />
                             <p>Albums</p></div>
                         <div><img src={more} alt='' />
                             <p>More</p></div>
                     </Col>
                     <Col>
-                        <img src={covers} alt='' />
+                        <img src={covers} alt=''width='500px' />
                     </Col>
                 </Row>
                 < Footer />
