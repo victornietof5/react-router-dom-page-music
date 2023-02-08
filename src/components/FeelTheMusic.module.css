@@ -1,13 +1,9 @@
-
-
 .girl{ width:100%;
 height:70vh;
 background-image: url(../assets/landing-page-girl.png);
 background-size: contain;
 background-repeat: no-repeat;
-
 }
-
 .purple { width:35rem;
     height:35rem;
     background-color:#bc3a801a ;
@@ -17,10 +13,7 @@ background-repeat: no-repeat;
     position: absolute;
     top:65%;
     left:10%;
-
-
 }
-
 .azul1{width:35rem;
     height:35rem;
     background-color: #3457b21a ;
@@ -30,10 +23,7 @@ background-repeat: no-repeat;
     position: absolute;
     top:40%;
     left:40%
-
-
 }
-
 .azul2{
     width:40rem;
     height:40rem;
@@ -42,11 +32,6 @@ background-repeat: no-repeat;
     border-radius: 50%;
     z-index: -1;
     position: absolute;
-top: 90%;
-right:-27%
-
-
-    
-
-
+    top: 90%;
+    right:-27%
 }
