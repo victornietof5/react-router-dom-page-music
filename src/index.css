@@ -4,5 +4,11 @@ font: size 1.2rem}
 
 body{
   background-color: #2F303A;
+  overflow: hidden !important;
+  margin: 0 auto;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
 

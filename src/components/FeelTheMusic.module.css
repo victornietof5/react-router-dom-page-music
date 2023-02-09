@@ -2,53 +2,50 @@ body {
      overflow: hidden; 
 }
 
-.girl{ 
-    width:100%;
-    height:70vh;
-    background-image: url(../assets/landing-page-girl.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+.girl{ width:100%;
+height:70vh;
+background-image: url(../assets/landing-page-girl.png);
+background-size: contain;
+background-repeat: no-repeat;
 
 }
 
-.purple { 
-    width:20rem;
-    height:20rem;
+.purple { width:35em;
+    height:35em;
     background-color:#bc3a801a ;
     transform: translate(-50%,-50%);
     border-radius: 50%;
     z-index: -1;
     position: absolute;
     top:65%;
-    left:3%;
+    left:10%;
 
 
 }
 
-.azul1{
-    width:20rem;
-    height:20rem;
+.azul1{width:35rem;
+    height:35rem;
     background-color: #3457b21a ;
     transform: translate(-50%,-50%);
     border-radius: 50%;
     z-index: -1;
     position: absolute;
     top:40%;
-    left:33%
+    left:40%
 
 
 }
 
 .azul2{
-    width:30rem;
-    height:30rem;
+    width:40rem;
+    height:40rem;
     background-color: #3457b21a ;
     transform: translate(-50%,-50%);
     border-radius: 50%;
     z-index: -1;
     position: absolute;
-    top: 90%;
-    right:-30%
+top: 90%;
+right:-27%
 
 
     

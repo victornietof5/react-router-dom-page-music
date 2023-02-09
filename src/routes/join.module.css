@@ -1,1 +1,23 @@
 span {color: #ff27cd;}
+
+
+.form { background:#202027 ;
+color: white;
+padding:20px;
+border-radius: 20px;
+width:80%
+}
+
+
+
+.textinput{ 
+    background:#202027;
+}
+
+.h1 {
+    color:white;
+    font-weight: bolder ;
+    font-size:4rem;
+    
+    margin:  50px 20px ;
+}
