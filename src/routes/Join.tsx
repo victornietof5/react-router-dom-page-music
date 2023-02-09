@@ -8,8 +8,8 @@ export const Join = () => {
     return (<>
         <Menu />
         <Container>
-            <h1 className='text-white display-5 '> Join the <span className={styles.span}>fun.</span> </h1>
-            <Form className='text-white'>
+            <h1 className='text-white display-3 '> Join the <span className={styles.span}>fun.</span> </h1>
+            <Form className='text-white m-5'>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Name</Form.Label>
                     <Form.Control type="text" />
@@ -27,7 +27,7 @@ export const Join = () => {
                 </Form.Group>
 
                 <Button variant="primary" type="submit">
-                    Submit
+                    Join now
                 </Button>
             </Form>
         </Container>
