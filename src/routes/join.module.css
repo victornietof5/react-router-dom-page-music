@@ -1,23 +1,81 @@
-span {color: #ff27cd;}
-
-
-.form { background:#202027 ;
-color: white;
-padding:20px;
-border-radius: 20px;
-width:80%
+span {
+    color: #ff27cd;
 }
-
-
-
-.textinput{ 
-    background:#202027;
+.form {
+    background: #202027;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 20%;
 }
-
+.textinput {
+    background: #202027;
+    border: 1px solid #2F303A;
+}
 .h1 {
-    color:white;
-    font-weight: bolder ;
-    font-size:4rem;
-    
-    margin:  50px 20px ;
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin: 50px 20px;
+}
+.purple {
+    width: 32rem;
+    height: 32rem;
+    background-color: #bc3a801a;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    top: 68%;
+    left: 8%;
+}
+.azul1 {
+    width: 27rem;
+    height: 27rem;
+    background-color: #3457b21a;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    top: 10%;
+    left: 24%
+}
+@media (max-width: 767px) {
+    .purple {
+        width: 7rem;
+        height:7rem;
+        background-color: #bc3a801a;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        top: 90%;
+        left: 10%;
+    }
+}
+@media (max-width: 767px) {
+    .azul1 {
+        width: 7rem;
+        height: 7rem;
+        background-color: #3457b21a;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        top: 2%;
+        left: 33%
+    }
+}
+@media (max-width: 767px) {
+    .form {
+        background: #202027;
+        color: white;
+        padding: 20px;
+        border-radius: 20px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20%;
+    }
 }

@@ -1,55 +1,84 @@
 body {
-     overflow: hidden; 
+    overflow: hidden;
 }
 
-.girl{ width:100%;
-height:70vh;
-background-image: url(../assets/landing-page-girl.png);
-background-size: contain;
-background-repeat: no-repeat;
-
+.girl {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../assets/landing-page-girl.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.purple { width:35em;
-    height:35em;
-    background-color:#bc3a801a ;
-    transform: translate(-50%,-50%);
+.purple {
+    width: 25rem;
+    height: 25rem;
+    background-color: #bc3a801a;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     z-index: -1;
     position: absolute;
-    top:65%;
-    left:10%;
-
-
+    top: 65%;
+    left: 10%;
 }
 
-.azul1{width:35rem;
-    height:35rem;
-    background-color: #3457b21a ;
-    transform: translate(-50%,-50%);
+.azul1 {
+    width: 25rem;
+    height: 25rem;
+    background-color: #3457b21a;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     z-index: -1;
     position: absolute;
-    top:40%;
-    left:40%
-
-
+    top: 40%;
+    left: 40%
 }
 
-.azul2{
-    width:40rem;
-    height:40rem;
-    background-color: #3457b21a ;
-    transform: translate(-50%,-50%);
+.azul2 {
+    width: 30rem;
+    height: 30rem;
+    background-color: #3457b21a;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     z-index: -1;
     position: absolute;
-top: 90%;
-right:-27%
-
-
-    
-
-
+    top: 90%;
+    right: -27%
 }
-
+@media (max-width: 767px) {
+    .purple {
+        width: 5rem;
+        height:5rem;
+        background-color: #bc3a801a;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        top: 85%;
+        left: 10%;
+    }
+}
+@media (max-width: 767px) {
+    .azul1 {
+        width: 5rem;
+        height: 5rem;
+        background-color: #3457b21a;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        top: 20%;
+        left: 40%
+    }
+}
+@media (max-width: 767px) {
+    .azul2 {
+      display: none;
+    }
+}
+@media (max-width: 767px) {
+    .fell {
+        justify-content: center;
+        align-content: center;
+    }
+}
