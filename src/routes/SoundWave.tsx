@@ -10,6 +10,7 @@ export const SoundWave = () => {
     <>
       <Menu />
       <Container fluid='md' className='fixed-bottom'>
+
         <FeelTheMusic />
       </Container>
       <div className={styles.purple}></div>

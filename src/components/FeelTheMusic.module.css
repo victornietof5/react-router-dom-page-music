@@ -11,32 +11,32 @@ body {
 }
 
 .purple {
-    width: 25rem;
-    height: 25rem;
+    width: 30rem;
+    height: 30rem;
     background-color: #bc3a801a;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     z-index: -1;
     position: absolute;
     top: 65%;
-    left: 10%;
+    left: 7%;
 }
 
 .azul1 {
-    width: 25rem;
-    height: 25rem;
+    width: 30rem;
+    height: 30rem;
     background-color: #3457b21a;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     z-index: -1;
     position: absolute;
-    top: 40%;
-    left: 40%
+    top: 44%;
+    left: 38%
 }
 
 .azul2 {
-    width: 30rem;
-    height: 30rem;
+    width: 35rem;
+    height: 35rem;
     background-color: #3457b21a;
     transform: translate(-50%, -50%);
     border-radius: 50%;
